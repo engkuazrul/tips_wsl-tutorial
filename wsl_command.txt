@@ -1,0 +1,3 @@
+wsl --set-defaut-version 2
+wsl --list --all
+wsl --setdefault <DistributionName>
