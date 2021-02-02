@@ -1,0 +1,16 @@
+Open window powershell as administrator
+
+Run command:
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+Restart computer
+
+Install wsl update for windows 10
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+Set wsl 2 as default
+
+Download Ubuntu from microsoft store
+
+Install, update and upgrade ubuntu
